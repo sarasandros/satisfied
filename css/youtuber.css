@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+img{
+	vertical-align: bottom;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background: #fff;
+	line-height: 1.5;
+}
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+header{
+	width:288px;
+	text-align: center;
+	display:inline;
+}
+header h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header ul{
+	text-align: center;
+}
+header ul li{
+	display: inline;
+}
+	
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#tapper{
+	float: right;
+}
+nav{
+	background: url("../img/sfimg/1x/1x/sf_nav_correct.png");
+	clear: right;
+}
+nav ul{
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0;
+}
+nav ul li{
+	display:inline-block;
+    
+}
+nav ul li a{
+	display: block;
+
+}
+#top_main{
+	margin: 20px 0;
+	clear: left;
+	text-align: center;
+}
+.tapper{
+	margin: 50px 0;
+	text-align: center;
+}
+.left_box{
+	width: 448.5px;
+	float: left;
+}
+.content{
+	width:490px;
+	float: right;
+}
+.center_box{
+	width: 200px;
+	float: left;
+}
+.right_box{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	height: 200px;
+	width: 200px;
+	float: right;
+}
+main{
+	clear: both;
+}
+
+
+
+footer{
+	text-align: right;
+	background: #ccc;
+	padding: 50px 10px 10px 0;
+	clear: both;
+}
+footer small{
+	font-size: 12px;
+}
+main section h1{
+	margin:50px 0 0 0;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+}
+.itembox{
+	width: 210px;
+	margin: 10px 10px 10px 0;
+	/*float: left;*/
+	/*display: block;*/
+}
+.itembox p{
+	width: 210px;
+}
+
+

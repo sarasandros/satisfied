@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+	
+
+	
+	
+
+<head>
+	<meta charset="UTF-8">
+	<title>NeedJPのユーチューバーを使ったインフルエンサー特化型ECサイトサティスファイド</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+		<link href="css/colorbox.css" rel="stylesheet">
+
+	<script src="colorbox/jquery.colorbox.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	
+	<script src="js/jquery.colorbox.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.slider').slick({
+				dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				variableWidth: true
+			});
+		});
+	</script>
+	
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>
+				<a href="index.html"><img src="img/sfimg/1x/sf_logo_correct.png" width="288" height="49" alt="サティスファイドロゴ" /> </a></h1>
+			<ul>
+				<li><a href="#"><img src="img/sfimg/1x/youtuber_qa.png" width="28" height="28" alt="" /></a></li>
+				<li><a href="#"><img src="img/sfimg/1x/youtuber_cart.png" width="28" height="28" alt="" /></a></li>
+				<li><a href="#"><img src="img/sfimg/1x/sf_search.png" width="289" height="29" alt="サティスファイド検索" /></a></li>
+			</ul>
+		</header>
+		<nav>
+			<ul class="cf">
+				<li><a href="index.html"><img src="img/sfimg/1x/sf_nav1.png" width="140
+		" height="43
+		" alt="ホーム" /></a></li>
+				<li><a href="youtuber.html"><img src="img/sfimg/1x/sf_nav2.png" width="140
+		" height="43
+		" alt="ユーチューバー" /></a></li>
+				<li><a href="products.html"><img src="img/sfimg/1x/sf_nav3.png" width="140
+		" height="43
+		" alt="サティスファイドとは" /></a></li>
+				<li><a href="mailto:"><img src="img/sfimg/1x/sf_nav4.png" width="140
+		" height="43
+		" alt="お問い合わせ" /> </a></li>
+			</ul>
+		</nav>
+		<div id="top_main"> <a href="youtuber.html"><img src="img/sfimg/1x/sf_topimg.png" alt="サティスファイドトップメイン" width="980" height="350"
+				 border="0" /></a>
+		</div>
+
+		<main>
+			<ariticle>
+				<section>
+
+					<div class="tapper">
+						<h1><img src="img/sfimg/1x/sf_bar1.png" width="900" height="28" alt="新作動画" /> </h1>
+					</div>
+					<div class="left_box">
+						<p><a href="https://www.youtube.com/embed/TTPrJJDuj1M?autoplay=1&mute=1" class="youtube"><img src="img/sfimg/1x/sf_img1.png" width="367" height="200" alt="パールホワイト オリジナル ホワイトニング専用歯ブラシ動画" /></a></p>
+					</div>
+					<div class="content">
+						<div class="center_box">
+							<p><a href="products.html"><img src="img/sfimg/1x/sf_product1.png" width="200" height="200" alt="パールホワイト オリジナル ホワイトニング専用歯ブラシ商品" /></a></p>
+						</div>
+						<div class="right_box">
+							<h2><a href="products.html">パールホワイト オリジナル ホワイトニング専用歯ブラシ</a></h2>
+						</div>
+					</div>
+					<div class="left_box">
+						<p><a href="https://www.youtube.com/embed/UHj0lI8l8sE?autoplay=1&mute=1" class="youtube"><img src="img/sfimg/1x/sf_img2.png" width="367" height="200" alt="ミリタリーバッグ動画" /></a></p>
+					</div>
+					<div class="content">
+						<div class="center_box">
+							<p><a href="products.html"><img src="img/sfimg/1x/sf_product2.png" width="200" height="200" alt="ミリタリーバッグ商品" /></a></p>
+						</div>
+						<div class="right_box">
+							<h2><a href="products.html">サイバトロン バックパック 3Day タクティカル ウォータープルーフ アウトドアデイパック</a></h2>
+						</div>
+					</div>
+					<div class="left_box">
+						<p><a href="https://www.youtube.com/embed/5usJakl8wcU?autoplay=1&mute=1" class="youtube"><img src="img/sfimg/1x/sf_img3.png" width="367" height="200" alt="ローションとセラム動画" /></a></p>
+					</div>
+					<div class="content">
+						<div class="center_box">
+							<p><a href="products.html"><img src="img/sfimg/1x/sf_product3.png" width="200" height="200" alt="ローションとセラム商品" /></a></p>
+						</div>
+						<div class="right_box">
+							<h2><a href="products.html">アクネル アクネクリアローション[医薬部外品] / アクネル AZセラム</a></h2>
+						</div>
+					</div>
+					
+				</section>
+				<section>
+					<div class="tapper">
+						<div>
+							<h1><img src="img/sfimg/1x/sf_bar2.png" width="900" height="28" alt="おすすめ商品" /></h1>
+						</div>
+					</div>
+					<ul class="slider">
+						<li><a href="products.html"><img src="img/sfimg/1x/sf_product4.png" width="220" height="220" alt="ミリタリーアイフォンケース" /></a></li>
+						<li><a href="products.html"><img src="img/sfimg/1x/sf_product5.png" width="220" height="220" alt="リップ" /></a></li>
+						<li><a href="products.html"><img src="img/sfimg/1x/sf_product6.png" width="220" height="220" alt="マウスウォッシュ" /></a></li>
+						<li><a href="products.html"><img src="img/sfimg/1x/sf_product7.png" width="220" height="220" alt="日本画" /></a></li>
+						<li><a href="products.html"><img src="img/sfimg/1x/sf_product8.png" width="220" height="220" alt="クリニーク" /></a></li>
+						<li><a href="products.html"><img src="img/sfimg/1x/sf_product9.png" width="220" height="220" alt="美容液" /></a></li>
+
+					</ul>
+				</section>
+				<section>
+					<div class="tapper">
+						<h1><img src="img/sfimg/1x/Asset 59.png" width="900" height="23" alt="動画閲覧履歴" /></h1>
+					</div>
+					<ul class="slider">
+						<div class="group">
+							<li><a href="products.html"><img src="img/sfimg/1x/sf_img4.png" width="367" height="200" alt="動画閲覧履歴1" /></a></li>
+						</div>
+						<div class="group">
+							<li><a href="products.html"><img src="img/sfimg/1x/sf_img5.png" width="367" height="200" alt="動画閲覧履歴2" /></a></li>
+						</div>
+						<div class="group">
+							<li><a href="products.html"
+							><img src="img/sfimg/1x/sf_img7.png" width="367" height="200" alt="動画閲覧履歴3" /></a></li>
+						</div>
+					</ul>
+
+				</section>
+
+			</ariticle>
+
+		</main>
+		<footer><small>Copyright &copy; 2019 NeedJP co,LTD. All rights reserved.</small></footer>
+	</div>
+
+</body>
+
+</html>

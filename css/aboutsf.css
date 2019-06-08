@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+img{
+	vertical-align: bottom;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background: #fff;
+	line-height: 1.5;
+}
+#wrapper{
+	width: 980px;
+	margin: 0 auto;	
+}
+
+header{
+	width:288px;
+	text-align: center;
+	display:inline;
+}
+header h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header ul{
+	text-align: center;
+}
+header ul li{
+	display: inline;
+}
+	
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#tapper{
+	float: right;
+}
+nav{
+	background: url("../img/sfimg/1x/1x/sf_nav_correct.png");
+	clear: right;
+}
+nav ul{
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0;
+}
+nav ul li{
+	display:inline-block;
+    
+}
+nav ul li a{
+	display: block;
+
+}
+
+main{
+	background: #F9DFD2;
+	clear: both;
+}
+article{
+	width: 890px;
+	margin: 0 auto;
+
+	
+}
+main section h1{
+	margin: 0;
+	padding: 100px 0 0 0;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+main section p{ 
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.circle{
+	width: calc(100%/3);
+	float: left;
+}
+main section .circle p{
+		margin: 0;
+		padding: 10px;
+}
+
+main section h2{
+	margin: 0;
+	padding: 100px 0 0 0;
+	font-weight: bold;
+	text-align: center;
+	
+}
+ main section img{
+	margin: 100px 0 100px 0;
+	padding: 0;
+}
+
+footer{
+	text-align: right;
+	background: #ccc;
+	padding: 50px 10px 10px 0;
+	clear: both;
+}
+footer small{
+	font-size: 12px;
+}
